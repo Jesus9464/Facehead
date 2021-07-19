@@ -1,0 +1,135 @@
+:root {
+  --colorprimario: #242526;
+  --colorboton: #3a3b3c;
+}
+
+.header__conatiner_social {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 35px;
+}
+
+.header__conatiner_social-container1 {
+  width: 100px;
+  height: 100%;
+}
+.header__conatiner_social_perfil {
+  display: flex;
+  width: 95px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--colorprimario);
+  border: none;
+  margin: 10px;
+}
+
+.header__conatiner_social_perfil:hover {
+  cursor: pointer;
+  background-color: var(--colorboton);
+  width: 95px;
+  height: 40px;
+  border-radius: 50px;
+}
+.header__conatiner_social_perfil-img {
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.header__conatiner_social_perfil-title {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.header__conatiner_social {
+  width: 100vh;
+}
+.header__conatiner_soacial-container2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 35px;
+}
+
+.container__social-imagen {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3b3c;
+  margin-left: 10px;
+}
+
+.container__social-imagen2 {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3b3c;
+  margin-left: 10px;
+}
+
+.container__img_social {
+  width: 15px;
+  height: 15px;
+  border: none;
+}
+
+.social__conatiner_title {
+  display: none;
+  position: absolute;
+  bottom: -38px;
+  background-color: white;
+  border: 1px solid black;
+  height: 35px;
+  font-size: 12px;
+  width: 60px;
+  border-radius: 10px;
+  padding-top: 8px;
+  text-align: center;
+  z-index: 10;
+}
+
+.social__conatiner_title2 {
+  display: none;
+  position: absolute;
+  bottom: -38px;
+  background-color: white;
+  border: 1px solid black;
+  height: 35px;
+  font-size: 12px;
+  width: 105px;
+  border-radius: 10px;
+  padding-top: 8px;
+  text-align: center;
+  z-index: 10;
+}
+.container__img_social img {
+  height: 15px;
+  width: 15px;
+}
+
+/* ---------------------------focus---------------- */
+.container__social-imagen:hover {
+  cursor: pointer;
+  background-color: #4e4f50;
+}
+
+.container__social-imagen:hover > .social__conatiner_title {
+  display: block;
+}
+
+.container__social-imagen:hover > .social__conatiner_title2 {
+  display: block;
+}
